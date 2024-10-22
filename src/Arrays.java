@@ -54,7 +54,7 @@ public class Arrays {
         num=SafeInput.getRangedInt(in,"Enter a number between 1-100",1,100);
         for(int i=0; i< dataPoints.length; i++){
             if (num==dataPoints[i]){
-                System.out.println("Your value " + num + " was found at array index " + i);
+                System.out.println("Your value " + num + " was first found at array index " + i);
                 inArray=true;
                 break;
             }
@@ -88,7 +88,7 @@ public class Arrays {
     }
     // task nine -- method
     public static double getAverage(int values[]){
-        int sum =0;
+        int sum = 0;
         for(int i=0; i< values.length; i++){
             sum+=values[i]; // sum = sum + dataPoints[i]
         }
