@@ -74,12 +74,9 @@ public class Arrays {
             if (min>dataPoints[i]){ // if the minimum is greater than the current value
                 min = dataPoints[i]; // minimum becomes the current value
             }
-            if(i==99){ // if at the end of the array
-                System.out.println("The minimum is: " + min);
-                System.out.println("The maximum is: " + max);
-            }
-
         }
+        System.out.println("The minimum is: " + min);
+        System.out.println("The maximum is: " + max);
 
 
         // task nine -- output
